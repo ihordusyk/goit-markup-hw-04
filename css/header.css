@@ -50,7 +50,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px; /* Притискання до нижнього краю хедера */
+  bottom: -1px;
   width: 100%;
   height: 4px;
   border-radius: 2px;
