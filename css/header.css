@@ -35,6 +35,7 @@
 }
 
 .nav-link {
+  position: relative;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,6 +44,17 @@
   display: block;
   padding-bottom: 24px;
   padding-top: 24px;
+}
+
+.nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px; /* Притискання до нижнього краю хедера */
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .nav-link:hover,
